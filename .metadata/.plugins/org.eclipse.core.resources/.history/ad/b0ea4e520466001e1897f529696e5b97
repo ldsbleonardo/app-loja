@@ -1,0 +1,55 @@
+package br.edu.infnet.applojaroupas.model.domain;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "tproduto")
+@Inheritance(strategy = InheritanceType.JOINED)
+public class Produto {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer id;
+	private Integer codigo;
+	private String descricao;
+	private String marca;
+	private float valorAquisicao;
+	@ManyToMany(mappedBy = "produtos")
+	private List<PedidoVenda> pedidos;
+	@ManyToOne
+	@JoinColumn(name = "idUsuario")
+	private Usuario usuario;
+
+	public Produto(Integer idcodigoProduto, Integer codigo, String descricao, String marca, String tamanho,
+			float valorAquisicao) {
+		this.id = idcodigoProduto;
+		this.codigo = codigo;
+		this.descricao = descricao;
+		this.marca = marca;
+		this.valorAquisicao = valorAquisicao;
+	}
+
+	public Produto() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Produto(Integer id) {
+		this.id = id;
+	}
+
+	@Override
+	public String toString() {
+		return String.format("%d;%d;%s;%s;%f", id, codigo, descricao, marca, valorAquisicao);
+	}
+}

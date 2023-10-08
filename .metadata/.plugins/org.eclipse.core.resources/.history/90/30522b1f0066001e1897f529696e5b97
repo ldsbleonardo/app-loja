@@ -1,0 +1,15 @@
+package br.edu.infnet.applojaroupas.model.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.edu.infnet.applojaroupas.model.repository.AcessorioRepository;
+import br.edu.infnet.applojaroupas.model.repository.CalcadoRepository;
+
+@Service
+public class CalcadoService {
+	
+	@Autowired
+	private CalcadoRepository calcadoRepository;
+
+}

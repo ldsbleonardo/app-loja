@@ -1,0 +1,94 @@
+package br.edu.infnet.applojaroupas;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.ApplicationArguments;
+import org.springframework.boot.ApplicationRunner;
+import org.springframework.stereotype.Component;
+
+import br.edu.infnet.applojaroupas.model.domain.Roupa;
+import br.edu.infnet.applojaroupas.model.domain.Usuario;
+import br.edu.infnet.applojaroupas.model.service.ProdutoService;
+
+@Component
+public class ProdutoLoader implements ApplicationRunner{
+	
+	@Autowired
+	private ProdutoService produtoService;
+
+	@Override
+	public void run(ApplicationArguments args) throws Exception {
+
+		FileReader file = new FileReader("arquivos/produto.txt");
+		BufferedReader leitura = new BufferedReader(file);
+		
+		String linha = leitura.readLine();
+		
+		String[] campos = null;
+		
+		while(linha != null) {
+			campos = linha.split(";"); 
+			
+			switch (campos[8]) {
+			case "R":
+				Roupa roupa = new Roupa(
+						Integer.valueOf(campos[0]), 
+						Integer.valueOf(campos[1]), 
+						linha, 
+						linha, 
+						Integer.valueOf(campos[2]), 
+						linha, 
+						linha, 
+						linha
+						
+						
+					);	
+				
+				roupa.setUsuario(null);
+
+				produtoService.incluir(bebida);				
+				break;
+
+			case "C":
+				Comida comida = new Comida(
+						campos[0], 
+						Float.valueOf(campos[1]), 
+						Integer.valueOf(campos[2]), 
+						Float.valueOf(campos[3]), 
+						Boolean.valueOf(campos[4]), 
+						campos[5]
+					);
+				
+				comida.setUsuario(new Usuario(Integer.valueOf(campos[6])));
+
+				produtoService.incluir(comida);
+				break;
+
+			case "S":
+				Sobremesa sobremesa = new Sobremesa(
+						campos[0], 
+						Float.valueOf(campos[1]), 
+						Integer.valueOf(campos[2]), 
+						Float.valueOf(campos[3]), 
+						Boolean.valueOf(campos[4]), 
+						campos[5]
+					);
+				
+				sobremesa.setUsuario(new Usuario(Integer.valueOf(campos[6])));
+
+				produtoService.incluir(sobremesa);
+				break;
+			
+			default:
+				break;
+			}
+			
+			linha = leitura.readLine();
+		}
+
+		leitura.close();		
+	}
+
+}

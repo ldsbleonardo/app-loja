@@ -1,0 +1,41 @@
+package br.edu.infnet.applojaroupas.model.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.edu.infnet.applojaroupas.model.repository.PedidoVendaRepository;
+
+@Service
+public class PedidoVendaService {
+	
+	@Autowired
+	private PedidoVendaRepository pedidoVendaRepository;
+	
+
+	public Collection<PedidoVenda> obterLista(){
+		
+		return (Collection<Pedido>) pedidoVendaRepository.findAll();
+	}
+	
+	public Collection<PedidoVenda> obterLista(Usuario usuario){
+		
+		List<PedidoVenda> lista = pedidoVendaRepository.obterLista(usuario.getId());
+		
+		if(lista.isEmpty()) {
+			return Collections.emptyList();
+		}
+		
+		return lista;
+	}
+
+	public void incluir(Pedido pedido) {
+
+		pedidoRepository.save(pedido);
+	}
+	
+	public void excluir(Integer id) {
+
+		pedidoRepository.deleteById(id);
+	}	
+
+}

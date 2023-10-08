@@ -1,42 +1,46 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Apploja</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">AppLoja</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Produtos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Roupas</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="#">Calçados</a>
-        </li>  
-         <li class="nav-item">
-          <a class="nav-link" href="#">Acessorios</a>
-        </li> 
-         <li class="nav-item">
-          <a class="nav-link" href="#">Pedidos</a>
-        </li>       
-      </ul>
-      
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">AppLoja</a>
     </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+	  <c:if test="${not empty user}">
+	      <li class="nav-item">
+	        <a class="nav-link" href="/usuario/lista">Usuário</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="/pedido/lista">Pedido</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="/solicitante/lista">Solicitante</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="/produto/lista">Produto</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="/roupa/lista">Roupa</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="/calcado/lista">Calcado</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="/acessoriolista">Acessorio</a>
+	      </li>
+      </c:if>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <c:if test="${empty user}">
+	      <li><a href="/usuario/cadastro"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>      
+	      <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </c:if>
+      
+      <c:if test="${not empty user}">
+      	  <li><a href="/logout"><span class="glyphicon glyphicon-log-out"></span> Logout ${user.nome}</a></li>
+      </c:if>
+    </ul>
   </div>
 </nav>
-
-</body>
-</html>

@@ -1,0 +1,34 @@
+package br.edu.infnet.applojaroupas.model.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.edu.infnet.applojaroupas.model.repository.CalcadoRepository;
+
+@Service
+public class CalcadoService {
+	
+	@Autowired
+	private CalcadoRepository calcadoRepository;
+	
+public Collection<Calcado> obterLista(){
+		
+		return (Collection<Calcado>) CalcadoRepository.findAll();
+	}
+	
+	public Collection<Calcado> obterLista(Usuario usuario){
+		
+		return (Collection<Calcado>) CalcadoRepository.obterLista(usuario.getId());
+	}
+
+	public void incluir(Calcado calcado) {
+
+		calcadoRepository.save(calcado);
+	}
+	
+	public void excluir(Integer id) {
+
+		calcadoRepository.deleteById(id);
+	}	
+
+}

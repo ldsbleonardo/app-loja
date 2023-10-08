@@ -9,3 +9,45 @@
 1696762677423	Rename resource 'index.jsp'
 1696769473906	Rename type 'AppLojaRoupasApplication'
 1696769478346	Rename type 'AppLojaRoupasApplicationTests'
+1696777537558	Rename package 'br.edu.infnet.applojaroupas.model.negocio'
+1696777749528	Move compilation units
+1696778054985	Rename type 'Pedido'
+1696778101967	Rename type 'PedidoLoader'
+1696778238515	Copy compilation unit
+1696778252887	Copy compilation unit
+1696778268734	Copy compilation unit
+1696778287045	Copy compilation unit
+1696778300824	Copy compilation unit
+1696778311736	Copy compilation unit
+1696778412772	Copy compilation unit
+1696778429983	Copy compilation unit
+1696778511203	Rename type 'SolicitanteVendaController'
+1696782134086	Rename type 'IClienteEndereço'
+1696783666584	Delete element
+1696783676503	Delete element
+1696783698193	Delete element
+1696783739890	Delete element
+1696787083625	Copy compilation unit
+1696788993181	Delete element
+1696789019725	Delete element
+1696789059965	Delete element
+1696790773514	Copy file
+1696790874570	Copy file
+1696791173121	Copy file
+1696791576707	Copy file
+1696793897244	Copy file
+1696794001448	Rename resource 'Usuario.txt'
+1696794010008	Rename resource 'Solicitante.txt'
+1696794018629	Rename resource 'Roupa.txt'
+1696794032249	Rename resource 'PedidoVenda.txt'
+1696794039435	Rename resource 'Calcado.txt'
+1696794174500	Rename resource 'Acessorio.txt'
+1696794779988	Copy file
+1696794807357	Rename resource 'Produto.txt'
+1696800724796	Copy folder
+1696800739145	Copy folder
+1696800768103	Copy folder
+1696800780074	Copy folder
+1696800821899	Copy folder
+1696800839375	Copy folder
+1696803152518	Copy compilation unit

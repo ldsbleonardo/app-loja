@@ -1,0 +1,8 @@
+package br.edu.infnet.applojaroupas.model.repository;
+
+@Repository
+public interface SolicitanteRepository extends CrudRepository<Solicitante, Integer> {
+
+	@Query("from Solicitante s where s.usuario.id = :userid")
+	public List<Solicitante> obterLista(Integer userid);
+}

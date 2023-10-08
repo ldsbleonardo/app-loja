@@ -1,39 +1,49 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<meta charset="ISO-8859-1">
+	<title>AppLoja</title>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body>
+	<c:import url="/WEB-INF/jsp/menu.jsp"/>
+	
+	<div class="container-fluid mt-3">
+	  <h3>Listagem de Roupas:</h3>
+	  <h4><a href="/roupa/cadastro">Nova Roupa</a></h4>
 
-<div class="container mt-3">
-	  <h2>Cadastramento de Bebidas</h2>
+	  <table class="table table-striped">
+	    <thead>
+	      <tr>
+	        <th>ID</th>
+	        <th>Nome</th>
+	        <th>Valor</th>
+	        <th>Código</th>
+	        <th>Tipo</th>
+	        <th>Cor</th>
+	        <th>Tamanho</th>
+	        <th></th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	   	    
+	      <c:forEach var="b" items="${listaAcessorio}">
+		      <tr>
+		        <td>${b.id}</td>
+		        <td>${b.nome}</td>
+		        <td>${b.valor}</td>
+		        <td>${b.codigo}</td>
+		        <td>${b.tipo}</td>
+		        <td>${b.cor}</td>
+		        <td>${b.tamanho}</td>
+		        <td><a href="/acessorio/${b.id}/excluir">excluir</a> </td>
+		      </tr>
+	      </c:forEach>
+	    </tbody>
+	  </table>
 	  
-	  <form action="/bebida/incluir" method="post">
-	  
-		<c:import url="/WEB-INF/jsp/produto/cadastro.jsp"/>
-		
-		<div class="form-check">
-		  <input class="form-check-input" type="checkbox" name="gelada" value="true" checked>
-		  <label class="form-check-label">Gelada</label>
-		</div>		
-
-	    <div class="mb-3 mt-3">
-	      <label for="tamanho">Tamanho:</label>
-	      <input type="text" class="form-control" value="99" id="tamanho" placeholder="Entre com o seu tamanho" name="tamanho">
-	    </div>
-
-	    <div class="mb-3 mt-3">
-	      <label for="marca">Marca:</label>
-	      <input type="text" class="form-control" value="Marca" id="marca" placeholder="Entre com a sua marca" name="marca">
-	    </div>
-
-	    <button type="submit" class="btn btn-primary">Cadastrar</button>
-	  </form>
 	</div>
-
 </body>
 </html>

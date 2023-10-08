@@ -1,0 +1,42 @@
+package br.edu.infnet.applojaroupas.controller;
+
+import br.edu.infnet.applojaroupas.model.service.RoupaService;
+
+public class RoupaController {
+	
+	@Autowired
+	private RoupaService roupaService;
+
+	@GetMapping(value = "/roupa/lista")
+	public String telaLista(Model model, @SessionAttribute("user") Usuario usuario) {
+
+		model.addAttribute("listaSobremesa", roupaService.obterLista(usuario));
+		
+		return "roupa/lista";
+	}
+
+	@GetMapping(value = "/sobremesa/cadastro")
+	public String telaCadastro() {
+
+		return "sobremesa/cadastro";
+	}
+
+	@PostMapping(value = "/sobremesa/incluir")
+	public String incluir(Sobremesa sobremesa, @SessionAttribute("user") Usuario usuario) {
+		
+		sobremesa.setUsuario(usuario);
+		
+		roupaService.incluir(sobremesa);
+		
+		return "redirect:/sobremesa/lista";
+	}
+
+	@GetMapping(value = "/sobremesa/{id}/excluir")
+	public String exclusao(@PathVariable Integer id) {
+		
+		roupaService.excluir(id);
+
+		return "redirect:/sobremesa/lista";
+	}
+
+}

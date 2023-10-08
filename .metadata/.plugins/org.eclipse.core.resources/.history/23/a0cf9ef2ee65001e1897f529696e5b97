@@ -1,0 +1,28 @@
+package br.edu.infnet.applojaroupas.model.service;
+
+public class ProdutoService {
+	
+	@Autowired
+	private ProdutoRepository produtoRepository;
+
+	public Collection<Produto> obterLista(){
+		
+		return (Collection<Produto>) produtoRepository.findAll();
+	}
+	
+	public Collection<Produto> obterLista(Usuario usuario){
+		
+		return (Collection<Produto>) produtoRepository.obterLista(usuario.getId());
+	}
+
+	public void incluir(Produto produto) {
+
+		produtoRepository.save(produto);
+	}
+	
+	public void excluir(Integer id) {
+
+		produtoRepository.deleteById(id);
+	}	
+
+}

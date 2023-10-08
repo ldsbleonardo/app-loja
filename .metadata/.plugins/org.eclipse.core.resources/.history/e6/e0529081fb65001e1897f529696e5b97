@@ -1,0 +1,24 @@
+package br.edu.infnet.applojaroupas.model.domain;
+
+import java.time.LocalDateTime;
+
+@Entity
+@Table(name = "TPedido")
+public class PedidoVenda {
+
+	private String descricao;
+	private LocalDateTime data;
+	private boolean web;
+
+	public PedidoVenda() {
+		descricao = "Pedido inicial";
+		data = LocalDateTime.now();
+		web = true;
+	}
+
+	@Override
+	public String toString() {
+		return descricao + ";" + data + ";" + web;
+	}
+
+}

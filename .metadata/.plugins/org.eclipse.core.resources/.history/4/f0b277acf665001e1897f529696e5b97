@@ -1,0 +1,34 @@
+package br.edu.infnet.applojaroupas.model.service;
+
+import java.util.Collection;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import br.edu.infnet.applojaroupas.model.domain.Usuario;
+
+public class UsuarioService {
+
+	@Autowired
+	private IUsuarioClient usuarioClient;
+
+	public Collection<Usuario> obterLista() {
+
+		return usuarioClient.obterLista();
+	}
+
+	public void incluir(Usuario usuario) {
+
+		usuarioClient.incluir(usuario);
+	}
+
+	public void excluir(Integer id) {
+
+		usuarioClient.excluir(id);
+	}
+
+	public Usuario validar(String email, String senha) {
+
+		return usuarioClient.validar(email, senha);
+	}
+
+}

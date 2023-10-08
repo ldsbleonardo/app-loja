@@ -3,3 +3,15 @@ C:\Projetos_INFNET\projeto-web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspse
 \app-loja-roupas\src\main\java
 C:\Projetos_INFNET\projeto-web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2594005394.index
 \app-loja-roupas\src\main\java
+C:\Projetos_INFNET\projeto-web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\375344302.index
+\app-loja-roupas\src\main\java
+C:\Projetos_INFNET\projeto-web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2429098407.index
+\app-loja-roupas\src\main\java
+C:\Projetos_INFNET\projeto-web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1754707236.index
+\app-loja-roupas\src\main\java
+C:\Projetos_INFNET\projeto-web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\813177046.index
+\app-loja-roupas\src\main\java
+C:\Projetos_INFNET\projeto-web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1541872510.index
+\app-loja-roupas\src\main\java
+C:\Projetos_INFNET\projeto-web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3483856668.index
+\app-loja-roupas\src\main\java
