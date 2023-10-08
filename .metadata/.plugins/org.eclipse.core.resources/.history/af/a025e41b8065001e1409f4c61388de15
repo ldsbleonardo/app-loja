@@ -1,0 +1,10 @@
+package br.edu.infnet.applojaroupas.model.negocio;
+
+public class Calcado extends Produto {
+
+	String tipo;
+	String cor;
+	String tamanho;
+
+	
+}

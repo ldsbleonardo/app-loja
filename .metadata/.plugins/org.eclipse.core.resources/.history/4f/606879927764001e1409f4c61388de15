@@ -1,0 +1,12 @@
+
+package br.edu.infnet.applojaroupas.model.negocio;
+
+public class Vendas extends Produto {
+
+	public Vendas(Integer codigoProduto, Integer codigoFornecedor, String descricao, String marca, String tamanho,
+			Double valorAquisicao) {
+		super(codigoProduto, codigoFornecedor, descricao, marca, tamanho, valorAquisicao);
+
+	}
+
+}

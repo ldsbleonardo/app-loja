@@ -1,0 +1,8 @@
+package br.edu.infnet.applojaroupas.model.negocio;
+
+public class Endereco {
+	
+	private Integer codigoEndereco;
+	
+
+}

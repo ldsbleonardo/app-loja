@@ -1,0 +1,12 @@
+package br.edu.infnet.applojaroupas.model.negocio;
+
+public class Endereco {
+	
+	private Integer codigoEndereco;
+	private String rua;
+	private Integer numero;
+	private String bairro;
+	private String cep;
+	
+
+}

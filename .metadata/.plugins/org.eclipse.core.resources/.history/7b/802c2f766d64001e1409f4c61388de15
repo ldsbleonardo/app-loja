@@ -1,0 +1,16 @@
+package br.edu.infnet.applojaroupas.model.negocio;
+
+public class Pedido {
+	
+	
+	private String descricao;
+	private LocalDateTime data;
+	provate boolean web;
+	
+	public Pedido() {
+		
+	}
+	
+	
+
+}

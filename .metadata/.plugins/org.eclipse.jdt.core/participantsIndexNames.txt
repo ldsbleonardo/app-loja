@@ -1,0 +1,5 @@
+INDEX VERSION 1.132
+C:\Projetos_INFNET\projeto-web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\211980305.index
+\app-loja-roupas\src\main\java
+C:\Projetos_INFNET\projeto-web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2594005394.index
+\app-loja-roupas\src\main\java

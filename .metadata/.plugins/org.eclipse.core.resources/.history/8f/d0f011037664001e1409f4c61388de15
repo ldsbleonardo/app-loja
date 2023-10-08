@@ -1,0 +1,14 @@
+package br.edu.infnet.applojaroupas.model.negocio;
+
+public class Produto {
+	
+	private Integer codigoProduto;
+	private Integer codigoFornecedor;
+	private String descricao;
+	private String marca;
+	private String tamanho;
+	private Double valorAquisicao;
+	
+	
+
+}

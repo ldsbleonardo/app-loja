@@ -1,0 +1,15 @@
+package br.edu.infnet.applojaroupas.model.negocio;
+
+public class Material extends Produto {
+	
+	private String tipoMaterial;
+	private float quantidade;
+	private String informacao;
+
+	public Material(Integer codigoProduto, Integer codigoFornecedor, String descricao, String marca, String tamanho,
+			Double valorAquisicao) {
+		super(codigoProduto, codigoFornecedor, descricao, marca, tamanho, valorAquisicao);
+		
+	}
+
+}

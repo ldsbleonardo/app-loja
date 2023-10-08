@@ -1,0 +1,6 @@
+package br.edu.infnet.applojaroupas.controller;
+
+@Controller
+public class AppController {
+
+}

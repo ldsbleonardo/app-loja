@@ -1,0 +1,11 @@
+package br.edu.infnet.applojaroupas.model.negocio;
+
+public class Roupa extends Produto {
+	
+	String tipo;
+	String cor;
+	String tamanho;
+	
+
+
+}

@@ -1,0 +1,7 @@
+package br.edu.infnet.applojaroupas.model.testes;
+
+import org.springframework.boot.ApplicationRunner;
+
+public class PedidoTeste implements ApplicationRunner{
+
+}

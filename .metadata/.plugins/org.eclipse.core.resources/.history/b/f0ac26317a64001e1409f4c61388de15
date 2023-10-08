@@ -1,0 +1,20 @@
+package br.edu.infnet.applojaroupas;
+
+import org.springframework.boot.ApplicationArguments;
+import org.springframework.boot.ApplicationRunner;
+import org.springframework.stereotype.Component;
+
+import br.edu.infnet.applojaroupas.model.negocio.Pedido;
+import br.edu.infnet.applojaroupas.model.negocio.Vendas;
+
+@Component
+public class VendasLoader implements ApplicationRunner{
+
+	@Override
+	public void run(ApplicationArguments args) throws Exception {
+		Vendas v1 = new Vendas(null, null, null, null, null, null, null, null);
+		System.out.println("Inclusao do pedido realizada com sucesso: " + v1);
+		
+	}
+
+}
