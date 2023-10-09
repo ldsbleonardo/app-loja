@@ -10,6 +10,8 @@
 <body>
 	<c:import url="/WEB-INF/jsp/menu.jsp"/>
 	
+	Teste
+	
 	<div class="container-fluid mt-3">
 	  <h3>Listagem de usuários:</h3>
 

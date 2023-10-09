@@ -4553,3 +4553,149 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2023-10-09 10:14:07,646 [Worker-676: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-10-09 10:14:07,646 [Worker-676: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2023-10-09 10:14:07,647 [Worker-676: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 10:37:05,812 [Worker-687: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 10:37:05,812 [Worker-687: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 10:37:05,812 [Worker-687: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 10:37:05,812 [Worker-687: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 10:37:05,816 [Worker-687: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 10:37:05,816 [Worker-687: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 10:37:05,817 [Worker-687: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 10:38:22,881 [Worker-690: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 10:38:22,882 [Worker-690: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 10:38:22,884 [Worker-690: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-09 10:38:22,894 [Worker-690: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 10:38:22,897 [Worker-690: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 10:38:22,897 [Worker-690: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 10:38:22,898 [Worker-690: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 10:45:30,160 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 10:45:30,160 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 10:45:30,160 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 10:45:30,161 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 10:45:30,163 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 10:45:30,163 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 10:45:30,164 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 10:47:29,520 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 10:47:29,520 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 10:47:29,521 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 10:47:29,521 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 10:47:29,524 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 10:47:29,524 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 10:47:29,524 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 10:49:31,919 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 10:49:31,919 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 10:49:31,919 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 10:49:31,920 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 10:49:31,923 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 10:49:31,923 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 10:49:31,923 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 10:53:07,363 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 10:53:07,363 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 10:53:07,365 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-09 10:53:07,393 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 10:53:07,396 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 10:53:07,396 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 10:53:07,396 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 10:53:50,114 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 10:53:50,114 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 10:53:50,116 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-09 10:53:50,122 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 10:53:50,125 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 10:53:50,125 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 10:53:50,125 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 10:55:30,386 [Worker-708: Launching app-loja-roupas] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Projetos_INFNET\projeto-web\app-loja-roupas":
+2023-10-09 10:55:30,387 [Worker-708: Launching app-loja-roupas] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean install
+2023-10-09 10:55:30,387 [Worker-708: Launching app-loja-roupas] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+2023-10-09 11:00:03,773 [Worker-709: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:00:03,773 [Worker-709: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:00:03,774 [Worker-709: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 11:00:03,774 [Worker-709: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 11:00:03,777 [Worker-709: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:00:03,777 [Worker-709: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:00:03,777 [Worker-709: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 11:00:19,424 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:00:19,424 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:00:19,424 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 11:00:19,425 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 11:00:19,427 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:00:19,427 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:00:19,427 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 11:01:54,044 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:01:54,044 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:01:54,045 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-09 11:01:54,075 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 11:01:54,079 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:01:54,080 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:01:54,080 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 11:04:01,236 [Worker-712: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:04:01,236 [Worker-712: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:04:01,238 [Worker-712: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-09 11:04:01,246 [Worker-712: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 11:04:01,250 [Worker-712: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:04:01,250 [Worker-712: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:04:01,250 [Worker-712: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 11:04:54,185 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:04:54,186 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:04:54,189 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-09 11:04:54,208 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 11:04:54,213 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:04:54,213 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:04:54,213 [Worker-711: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 11:05:02,018 [Worker-712: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:05:02,018 [Worker-712: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:05:02,022 [Worker-712: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-09 11:05:02,032 [Worker-712: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 11:05:02,036 [Worker-712: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:05:02,037 [Worker-712: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:05:02,037 [Worker-712: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 11:09:02,677 [Worker-715: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:09:02,677 [Worker-715: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:09:02,677 [Worker-715: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 11:09:02,678 [Worker-715: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 11:09:02,685 [Worker-715: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:09:02,685 [Worker-715: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:09:02,686 [Worker-715: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 11:10:22,966 [Worker-715: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:10:22,966 [Worker-715: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:10:22,968 [Worker-715: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-09 11:10:22,982 [Worker-715: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 11:10:22,987 [Worker-715: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:10:22,987 [Worker-715: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:10:22,987 [Worker-715: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 11:10:46,277 [Worker-728: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:10:46,278 [Worker-728: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:10:46,280 [Worker-728: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-09 11:10:46,288 [Worker-728: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 11:10:46,293 [Worker-728: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:10:46,293 [Worker-728: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:10:46,294 [Worker-728: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 11:11:16,718 [Worker-736: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:11:16,718 [Worker-736: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:11:16,720 [Worker-736: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-09 11:11:16,728 [Worker-736: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 11:11:16,733 [Worker-736: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:11:16,733 [Worker-736: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:11:16,733 [Worker-736: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 11:11:25,895 [Worker-739: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:11:25,895 [Worker-739: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:11:25,897 [Worker-739: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-09 11:11:25,903 [Worker-739: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 11:11:25,908 [Worker-739: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:11:25,908 [Worker-739: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:11:25,908 [Worker-739: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 11:11:34,302 [Worker-732: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:11:34,302 [Worker-732: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:11:34,304 [Worker-732: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-09 11:11:34,312 [Worker-732: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 11:11:34,317 [Worker-732: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:11:34,317 [Worker-732: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:11:34,317 [Worker-732: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 11:11:44,511 [Worker-729: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:11:44,511 [Worker-729: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:11:44,513 [Worker-729: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-10-09 11:11:44,519 [Worker-729: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-10-09 11:11:44,522 [Worker-729: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-09 11:11:44,522 [Worker-729: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-10-09 11:11:44,522 [Worker-729: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Projetos_INFNET\projeto-web\app-loja-roupas\src\test\resources
+2023-10-09 11:11:51,993 [Worker-733: Launching app-loja-roupas] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Projetos_INFNET\projeto-web\app-loja-roupas":
+2023-10-09 11:11:51,993 [Worker-733: Launching app-loja-roupas] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean install
+2023-10-09 11:11:51,993 [Worker-733: Launching app-loja-roupas] WARN  o.e.m.i.l.MavenLaunchExtensionsSupport - Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector

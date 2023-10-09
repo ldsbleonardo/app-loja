@@ -30,7 +30,7 @@ public class UsuarioLoader implements ApplicationRunner {
 
 		while (linha != null) {
 			campos = linha.split(";");
-			System.out.println("Usuario Loader: " + campos.toString());
+			System.out.println("Usuario Loader: " + campos);
 			Usuario usuario = new Usuario();
 			usuario.setEmail(campos[0]);
 			usuario.setNome(campos[1]);

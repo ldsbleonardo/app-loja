@@ -1,2 +1,3 @@
 admin@admin.com;Administrator;123
 usuarioteste@teste.com;usuarioTeste;123
+leonardo.bezerra@al.infnet.edu.br;Leonardo Bezerra;123

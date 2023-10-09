@@ -1,6 +1,7 @@
 package br.edu.infnet.applojaroupas.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -13,6 +14,7 @@ import br.edu.infnet.applojaroupas.model.service.PedidoVendaService;
 import br.edu.infnet.applojaroupas.model.service.ProdutoService;
 import br.edu.infnet.applojaroupas.model.service.SolicitanteService;
 
+@Controller
 public class PedidoVendaController {
 
 	@Autowired

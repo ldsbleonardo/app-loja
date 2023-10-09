@@ -1,6 +1,7 @@
 package br.edu.infnet.applojaroupas.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import br.edu.infnet.applojaroupas.model.domain.Usuario;
 import br.edu.infnet.applojaroupas.model.service.UsuarioService;
 
+@Controller
 public class UsuarioController {
 
 	@Autowired
@@ -17,42 +19,34 @@ public class UsuarioController {
 
 	@PostMapping(value = "/valida")
 	public String validar(Model model, @RequestParam String email, @RequestParam String senha) {
-
 		Usuario user = usuarioService.validar(email, senha);
-
 		if (user != null) {
 			model.addAttribute("user", user);
 			return "home";
 		}
-
 		return "redirect:/login";
-
 	}
 
 	@GetMapping(value = "/usuario/lista")
 	public String telaLista(Model model) {
-
 		model.addAttribute("listaUsuario", usuarioService.obterLista());
 		return "usuario/lista";
 	}
 
-	@GetMapping(value = "/usuario/cadastro")
+	@GetMapping(value = "/usuario/cadastro2")
 	public String telaCadastro() {
-		return "usuario/cadastro";
+		return "usuario/cadastro2";
 	}
 
 	@PostMapping(value = "/usuario/incluir")
 	public String incluir(Usuario usuario) {
-
 		usuarioService.incluir(usuario);
 		return "redirect:/";
 	}
 
 	@GetMapping(value = "/usuario/{id}/excluir")
 	public String excluir(@PathVariable Integer id) {
-
 		usuarioService.excluir(id);
-
 		return "redirect:/usuario/lista";
 	}
 
