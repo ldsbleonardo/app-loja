@@ -21,25 +21,23 @@ public class UsuarioController {
 		Usuario user = usuarioService.validar(email, senha);
 
 		if (user != null) {
-
 			model.addAttribute("user", user);
-
 			return "home";
 		}
+
 		return "redirect:/login";
+
 	}
 
 	@GetMapping(value = "/usuario/lista")
 	public String telaLista(Model model) {
 
 		model.addAttribute("listaUsuario", usuarioService.obterLista());
-
 		return "usuario/lista";
 	}
 
 	@GetMapping(value = "/usuario/cadastro")
 	public String telaCadastro() {
-
 		return "usuario/cadastro";
 	}
 
@@ -47,7 +45,6 @@ public class UsuarioController {
 	public String incluir(Usuario usuario) {
 
 		usuarioService.incluir(usuario);
-
 		return "redirect:/";
 	}
 
@@ -58,4 +55,5 @@ public class UsuarioController {
 
 		return "redirect:/usuario/lista";
 	}
+
 }
