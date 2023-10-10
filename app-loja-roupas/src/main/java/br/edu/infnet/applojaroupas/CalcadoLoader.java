@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import br.edu.infnet.applojaroupas.model.domain.Calcado;
 
-@Order(2)
+@Order(5)
 @Component
 public class CalcadoLoader implements ApplicationRunner {
 

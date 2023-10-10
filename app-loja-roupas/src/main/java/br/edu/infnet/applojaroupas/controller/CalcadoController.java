@@ -21,7 +21,7 @@ public class CalcadoController {
 	@GetMapping(value = "/calcado/lista")
 	public String telaLista(Model model, @SessionAttribute("user") Usuario usuario) {
 
-		model.addAttribute("listacalcado", calcadoService.obterLista(usuario));
+		model.addAttribute("listaCalcado", calcadoService.obterLista(usuario));
 		
 		return "calcado/lista";
 	}

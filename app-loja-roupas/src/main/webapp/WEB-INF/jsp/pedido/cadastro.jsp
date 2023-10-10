@@ -48,7 +48,7 @@
 	      	<c:forEach var="p" items="${produtos}">
 				<div class="form-check">
 				  <input class="form-check-input" type="checkbox" name="produtos" value="${p.id}">
-				  <label class="form-check-label"> ${p.nome}</label>
+				  <label class="form-check-label"> ${p.descricao}</label>
 				</div>	   
 			</c:forEach>   
 	    </div>

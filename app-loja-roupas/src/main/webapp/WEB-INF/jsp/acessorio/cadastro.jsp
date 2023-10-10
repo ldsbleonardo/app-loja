@@ -11,7 +11,7 @@
 <body>
 
 <div class="container mt-3">
-	  <h2>Cadastro de acessorio</h2>
+	  <h2>Cadastro de Acessorio</h2>
 	  
 	  <form action="/acessorio/incluir" method="post">
 	  

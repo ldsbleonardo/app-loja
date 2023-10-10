@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 import br.edu.infnet.applojaroupas.model.domain.Usuario;
 import br.edu.infnet.applojaroupas.model.service.UsuarioService;
 
-@Order(4)
+@Order(1)
 @Component
 public class UsuarioLoader implements ApplicationRunner {
 
@@ -30,7 +30,7 @@ public class UsuarioLoader implements ApplicationRunner {
 
 		while (linha != null) {
 			campos = linha.split(";");
-			System.out.println("Usuario Loader: " + campos);
+			
 			Usuario usuario = new Usuario();
 			usuario.setEmail(campos[0]);
 			usuario.setNome(campos[1]);

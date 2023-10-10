@@ -1,3 +1,6 @@
-1;2;Bone;Adidas;50;Brasil;Azul;unico;A
-3;4;Bone;Adidas;50;Brasil;Azul;unico;R
-5;6;Bone;Adidas;50;Brasil;Azul;unico;C
+1;1;Bone;Adidas;50;Brasil;Azul;unico;A;1
+2;2;Camisa;Nike;100;Cobra;Preto;Grande;R;1
+3;3;Tenis;Mizuno;400;Ferracini;Preto;40;C;1
+1;1;Relogio;Fila;50;Brasil;Azul;unico;A;3
+2;2;Bermuda;Hugo Boss;100;Cobra;Preto;Grande;R;3
+3;3;Chinelo;Havaianas;300;Ferracini;Preto;40;C;3

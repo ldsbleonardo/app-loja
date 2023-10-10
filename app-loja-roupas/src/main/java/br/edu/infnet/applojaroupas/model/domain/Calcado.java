@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "TCalcado")
+@Table(name = "Tcalcado")
 public class Calcado extends Produto {
 
 	String tipo;

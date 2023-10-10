@@ -12,15 +12,12 @@
 	
 	<div class="container-fluid mt-3">
 	  <h3>Listagem de Calcados:</h3>
-	  <h4><a href="/acessorio/cadastro">Novo Calcado</a></h4>
+	  <h4><a href="/calcado/cadastro">Novo Calcado</a></h4>
 
 	  <table class="table table-striped">
 	    <thead>
 	      <tr>
 	        <th>ID</th>
-	        <th>Nome</th>
-	        <th>Valor</th>
-	        <th>Código</th>
 	        <th>Tipo</th>
 	        <th>Cor</th>
 	        <th>Tamanho</th>
@@ -32,9 +29,6 @@
 	      <c:forEach var="b" items="${listaCalcado}">
 		      <tr>
 		        <td>${b.id}</td>
-		        <td>${b.nome}</td>
-		        <td>${b.valor}</td>
-		        <td>${b.codigo}</td>
 		        <td>${b.tipo}</td>
 		        <td>${b.cor}</td>
 		        <td>${b.tamanho}</td>

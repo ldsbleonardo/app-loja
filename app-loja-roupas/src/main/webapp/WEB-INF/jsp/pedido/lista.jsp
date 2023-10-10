@@ -21,7 +21,7 @@
 	        <th>ID</th>
 	        <th>Descrição</th>
 	        <th>Data</th>
-	        <th>Web</th>
+	        <th>Atendimento Web</th>
 	        <th>Solicitante</th>
 	        <th>Produtos</th>
 	        <th></th>

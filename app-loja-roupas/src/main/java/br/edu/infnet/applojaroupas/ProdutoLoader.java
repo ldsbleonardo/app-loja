@@ -6,6 +6,7 @@ import java.io.FileReader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 import br.edu.infnet.applojaroupas.model.domain.Acessorio;
@@ -14,6 +15,7 @@ import br.edu.infnet.applojaroupas.model.domain.Roupa;
 import br.edu.infnet.applojaroupas.model.domain.Usuario;
 import br.edu.infnet.applojaroupas.model.service.ProdutoService;
 
+@Order(2)
 @Component
 public class ProdutoLoader implements ApplicationRunner {
 
@@ -30,49 +32,46 @@ public class ProdutoLoader implements ApplicationRunner {
 
 		String[] campos = null;
 
-//		while (linha != null) {
-//			campos = linha.split(";");
-//			
-//			System.out.println("* Tamanho do campo:" + campos.length);
-//
-//			switch (campos[9]) {
-//		
-//			case "R":
-//				System.out.println("* teste de roupa:" + campos.toString());
-//				Roupa roupa = new Roupa(Integer.valueOf(campos[0]), Integer.valueOf(campos[1]), campos[3], campos[4],
-//						Float.valueOf(campos[5]), campos[6], campos[7], campos[8]);
-//
-//				roupa.setUsuario(new Usuario(Integer.valueOf(campos[9])));
-//
-//				produtoService.incluir(roupa);
-//				break;
-//
-//			case "A":
-//				Acessorio acessorio = new Acessorio(
-//
-//						Integer.valueOf(campos[0]), Integer.valueOf(campos[1]), campos[3], campos[4],
-//						Float.valueOf(campos[5]), campos[6], campos[7], campos[8]);
-//
-//				acessorio.setUsuario(new Usuario(Integer.valueOf(campos[9])));
-//
-//				produtoService.incluir(acessorio);
-//				break;
-//
-//			case "C":
-//				Calcado calcado = new Calcado(Integer.valueOf(campos[0]), Integer.valueOf(campos[1]), campos[3],
-//						campos[4], Float.valueOf(campos[5]), campos[6], campos[7], campos[8]);
-//
-//				calcado.setUsuario(new Usuario(Integer.valueOf(campos[9])));
-//
-//				produtoService.incluir(calcado);
-//				break;
-//
-//			default:
-//				break;
-//			}
-//
-//			linha = leitura.readLine();
-//		}
+		while (linha != null) {
+			campos = linha.split(";");
+			
+			switch (campos[8]) {
+
+			case "R":
+
+				Roupa roupa = new Roupa(Integer.valueOf(campos[0]), Integer.valueOf(campos[1]), campos[2], campos[3],
+						Float.valueOf(campos[4]), campos[5], campos[6], campos[7]);
+
+				roupa.setUsuario(new Usuario(Integer.valueOf(campos[9])));
+
+				produtoService.incluir(roupa);
+				break;
+
+			case "A":
+				System.out.println("* teste de acessorio:" + campos.toString());
+				Acessorio acessorio = new Acessorio(Integer.valueOf(campos[0]), Integer.valueOf(campos[1]), campos[2],
+						campos[3], Float.valueOf(campos[4]), campos[5], campos[6], campos[7]);
+
+				acessorio.setUsuario(new Usuario(Integer.valueOf(campos[9])));
+
+				produtoService.incluir(acessorio);
+				break;
+
+			case "C":
+				Calcado calcado = new Calcado(Integer.valueOf(campos[0]), Integer.valueOf(campos[1]), campos[2],
+						campos[3], Float.valueOf(campos[4]), campos[5], campos[6], campos[7]);
+
+				calcado.setUsuario(new Usuario(Integer.valueOf(campos[9])));
+
+				produtoService.incluir(calcado);
+				break;
+
+			default:
+				break;
+			}
+
+			linha = leitura.readLine();
+		}
 
 		leitura.close();
 	}

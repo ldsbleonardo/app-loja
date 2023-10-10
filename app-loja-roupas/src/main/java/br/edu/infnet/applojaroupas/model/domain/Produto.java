@@ -15,17 +15,19 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "tproduto")
-@Inheritance(strategy = InheritanceType.JOINED)
 public class Produto {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
+
 	private Integer codigo;
 	private String descricao;
 	private String marca;
 	private float valorAquisicao;
+
 	@ManyToMany(mappedBy = "produtos")
 	private List<PedidoVenda> pedidos;
+
 	@ManyToOne
 	@JoinColumn(name = "idUsuario")
 	private Usuario usuario;

@@ -53,7 +53,7 @@ public class PedidoVenda {
 
 	@Override
 	public String toString() {
-		return descricao + ";" + data + ";" + web + ";" + solicitante + ";" + usuario + ";" + (produtos==null?0:produtos.size());
+		return descricao + ";" + data + ";" + web + ";" + solicitante + ";" + usuario + ";" + produtos.size();
 	}
 
 	public Integer getId() {

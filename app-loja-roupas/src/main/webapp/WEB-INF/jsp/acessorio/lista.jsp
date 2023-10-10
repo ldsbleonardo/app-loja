@@ -18,9 +18,6 @@
 	    <thead>
 	      <tr>
 	        <th>ID</th>
-	        <th>Nome</th>
-	        <th>Valor</th>
-	        <th>Código</th>
 	        <th>Tipo</th>
 	        <th>Cor</th>
 	        <th>Tamanho</th>
@@ -32,9 +29,6 @@
 	      <c:forEach var="b" items="${listaAcessorio}">
 		      <tr>
 		        <td>${b.id}</td>
-		        <td>${b.nome}</td>
-		        <td>${b.valor}</td>
-		        <td>${b.codigo}</td>
 		        <td>${b.tipo}</td>
 		        <td>${b.cor}</td>
 		        <td>${b.tamanho}</td>

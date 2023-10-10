@@ -9,8 +9,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.SessionAttribute;
 
 import br.edu.infnet.applojaroupas.model.domain.Acessorio;
+import br.edu.infnet.applojaroupas.model.domain.Roupa;
 import br.edu.infnet.applojaroupas.model.domain.Usuario;
 import br.edu.infnet.applojaroupas.model.service.AcessorioService;
+import br.edu.infnet.applojaroupas.model.service.RoupaService;
 
 @Controller
 public class AcessorioController {
@@ -42,12 +44,11 @@ public class AcessorioController {
 		return "redirect:/acessorio/lista";
 	}
 
-	@GetMapping(value = "/acessorio/{id}/excluir")
+	@GetMapping(value = "/reboque/{id}/excluir")
 	public String exclusao(@PathVariable Integer id) {
 
 		acessorioService.excluir(id);
 
 		return "redirect:/acessorio/lista";
 	}
-
 }

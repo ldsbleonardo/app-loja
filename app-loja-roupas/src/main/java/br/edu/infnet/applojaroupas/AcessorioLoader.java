@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import br.edu.infnet.applojaroupas.model.domain.Acessorio;
 
-@Order(3)
+@Order(4)
 @Component
 public class AcessorioLoader implements ApplicationRunner {
 

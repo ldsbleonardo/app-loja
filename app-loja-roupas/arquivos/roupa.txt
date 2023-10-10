@@ -1,1 +1,2 @@
-2;3;Bermuda;Nike;50;masculinmo;azul;grande
+5;5;Bermuda;Nike;50;Brasil;azul;grande;R;1
+6;6;Camisa;Nike;50;USA;Preto;Media;R;1

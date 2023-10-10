@@ -21,15 +21,15 @@ public class RoupaController {
 	@GetMapping(value = "/roupa/lista")
 	public String telaLista(Model model, @SessionAttribute("user") Usuario usuario) {
 
-		model.addAttribute("listaSobremesa", roupaService.obterLista(usuario));
+		model.addAttribute("listaRoupa", roupaService.obterLista(usuario));
 		
 		return "roupa/lista";
 	}
 
-	@GetMapping(value = "/sobremesa/cadastro")
+	@GetMapping(value = "/roupa/cadastro")
 	public String telaCadastro() {
 
-		return "sobremesa/cadastro";
+		return "roupa/cadastro";
 	}
 
 	@PostMapping(value = "/roupa/incluir")
@@ -39,7 +39,7 @@ public class RoupaController {
 		
 		roupaService.incluir(roupa);
 		
-		return "redirect:/sobremesa/lista";
+		return "redirect:/roupa/lista";
 	}
 
 	@GetMapping(value = "/roupa/{id}/excluir")

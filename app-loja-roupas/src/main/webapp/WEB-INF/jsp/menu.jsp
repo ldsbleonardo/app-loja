@@ -13,10 +13,10 @@
 	        <a class="nav-link" href="/usuario/lista">Usuário</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="/pedido/lista">Pedido</a>
+	        <a class="nav-link" href="/pedido/lista">Pedido Venda</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="/solicitante/lista">Solicitante</a>
+	        <a class="nav-link" href="/solicitante/lista">Solicitações de Pedidos</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="/produto/lista">Produto</a>
@@ -28,7 +28,7 @@
 	        <a class="nav-link" href="/calcado/lista">Calcado</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="/acessoriolista">Acessorio</a>
+	        <a class="nav-link" href="/acessorio/lista">Acessorio</a>
 	      </li>
       </c:if>
     </ul>

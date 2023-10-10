@@ -36,6 +36,7 @@ public class PedidoVendaController {
 
 	@GetMapping(value = "/pedido/lista")
 	public String telaLista(Model model, @SessionAttribute("user") Usuario usuario) {
+		
 		model.addAttribute("listagem", pedidoVendaService.obterLista(usuario));
 
 		return "pedido/lista";

@@ -33,9 +33,9 @@ public class UsuarioController {
 		return "usuario/lista";
 	}
 
-	@GetMapping(value = "/usuario/cadastro2")
+	@GetMapping(value = "/usuario/cadastro")
 	public String telaCadastro() {
-		return "usuario/cadastro2";
+		return "usuario/cadastro";
 	}
 
 	@PostMapping(value = "/usuario/incluir")
